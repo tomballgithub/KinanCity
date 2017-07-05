@@ -26,7 +26,7 @@ public class PlusTrickEmailGenerator implements EmailGenerator {
 
 	private boolean initDone = false;
 
-	private String joiner = "+";
+	private String joiner = "";
 
 	public PlusTrickEmailGenerator(String baseEmail) {
 		this.baseEmail = baseEmail;
