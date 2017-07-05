@@ -31,13 +31,13 @@ public class AccountDataTest {
 			int month = Integer.parseInt((rdob.substring(5, 7)));
 			int day = Integer.parseInt((rdob.substring(8, 10)));
 
-			assertThat(year).isGreaterThan(1900);
+			assertThat(year).isGreaterThan(1970);
 			assertThat(month).isLessThanOrEqualTo(12);
 			assertThat(day).isLessThanOrEqualTo(31);
 
 			int age = LocalDateTime.now().getYear() - year;
 			assertThat(age).isGreaterThanOrEqualTo(18);
-			assertThat(age).isLessThanOrEqualTo(80);
+			assertThat(age).isLessThanOrEqualTo(41);
 		}
 	}
 

@@ -88,7 +88,7 @@ public class AccountData implements Cloneable {
 	}
 
 	public static String randomAdultDateOfBirth() {
-		return randomDateOfBirth(18, 80);
+		return randomDateOfBirth(18, 40);
 	}
 
 	public static String randomDateOfBirth(int minAge, int maxAge) {

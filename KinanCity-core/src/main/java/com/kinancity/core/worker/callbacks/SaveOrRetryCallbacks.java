@@ -25,7 +25,7 @@ public class SaveOrRetryCallbacks implements CreationCallbacks {
 	private ResultLogger resultLogger;
 
 	// Number of try max
-	private int nbMaxTries = 3;
+	private int nbMaxTries = 6;
 
 	public SaveOrRetryCallbacks(AccountCreationQueue queue, List<AccountCreation> done, List<AccountCreation> failed, ResultLogger resultLogger) {
 		this.queue = queue;

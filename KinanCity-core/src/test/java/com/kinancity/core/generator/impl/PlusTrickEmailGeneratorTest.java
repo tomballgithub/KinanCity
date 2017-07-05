@@ -24,7 +24,7 @@ public class PlusTrickEmailGeneratorTest {
 
 		// Then
 		assertThat(email).isNotNull();
-		assertThat(email).isEqualTo("myname+username@domain.fr");
+		assertThat(email).isEqualTo("mynameusername@domain.fr");
 	}
 	
 	/**
